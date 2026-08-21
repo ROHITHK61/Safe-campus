@@ -1,0 +1,53 @@
+export const incidents = [
+  {
+    id: "INC-001",
+    type: "Fire",
+    location: "Block A",
+    time: "10:31 AM",
+    date: "19 Aug 2026",
+    severity: "Critical",
+    status: "Active",
+    affected: 8,
+    responder: "Fire Response Team",
+    responseTime: 180,
+  },
+
+  {
+    id: "INC-002",
+    type: "Medical Emergency",
+    location: "Hostel 2",
+    time: "10:28 AM",
+    date: "19 Aug 2026",
+    severity: "High",
+    status: "Responding",
+    affected: 1,
+    responder: "Medical Team",
+    responseTime: 240,
+  },
+
+  {
+    id: "INC-003",
+    type: "Security Threat",
+    location: "Block C",
+    time: "10:25 AM",
+    date: "19 Aug 2026",
+    severity: "Medium",
+    status: "Investigating",
+    affected: 0,
+    responder: "Security Team",
+    responseTime: 125,
+  },
+
+  {
+    id: "INC-004",
+    type: "Accident",
+    location: "Sports Complex",
+    time: "10:20 AM",
+    date: "19 Aug 2026",
+    severity: "Low",
+    status: "Resolved",
+    affected: 2,
+    responder: "First Aid Team",
+    responseTime: 360,
+  },
+];
